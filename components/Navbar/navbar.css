@@ -1,0 +1,51 @@
+.navbar-brand{
+    color: crimson;
+}
+
+.navbar{
+    z-index: 20;
+    height: 70px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+
+.links-grid{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 4rem 0rem 4rem;
+}
+
+.movies-links{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.movies-link{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 670px) {
+
+    .links-grid{
+        padding: 0rem 2rem 0rem 2rem;
+        
+    }
+}
+
+@media (max-width: 440px) {
+    .navbar{
+        height: auto;
+    }
+    .links-grid{
+        padding: 0rem 1rem 0rem 1rem;
+        justify-content: start;
+    }
+    .links-grid{
+        flex-direction: column;
+    }
+}
