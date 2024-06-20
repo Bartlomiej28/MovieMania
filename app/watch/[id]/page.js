@@ -17,7 +17,6 @@ async function Watch(props) {
           <div className='movie col-12'>
             <div className='overlay'></div>
             <Image className='movie-poster img-fluid' src={imagePath + data.backdrop_path} alt="movie image" width={2000} height={500} priority={true}/>
-            <Image className='movie-poster-blur img-fluid' src={imagePath + data.backdrop_path} alt="movie image blur" width={10} height={10} priority={true}/>
           </div>
           <div className='movie-details col-xl-6 col-md-7 col-sm-12'>
               <h1 className='display-3 movie-title'>{data.title}</h1>

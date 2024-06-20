@@ -3,7 +3,7 @@
 }
 
 .navbar{
-    z-index: 20;
+    z-index: 50;
     height: 70px;
     position: fixed;
     background-color: black;
